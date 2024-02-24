@@ -1,0 +1,19 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Postprocessor/*
+!/Postprocessor/task/
+/Postprocessor/task/*
+!/Postprocessor/task/database.csv
+!/Postprocessor/task/main.js
+!/Postprocessor/task/hash_database.csv
+!/Postprocessor/task/filtered_database.csv
